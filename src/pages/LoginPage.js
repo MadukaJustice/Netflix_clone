@@ -24,7 +24,7 @@ const LoginPage = () => {
   };
 
   onAuthStateChanged(firebaseAuth, (currentUser) => {
-    if (currentUser) navigate("/");
+    if (currentUser) navigate("/netflix");
   });
 
   return (
